@@ -1,0 +1,54 @@
+/* Reset Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    width: 300px;
+    background: linear-gradient(135deg, #1a73e8, #2196f3);
+    color: white;
+    border-radius: 10px;
+}
+
+
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+.description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.generate-btn {
+    background: #fff;
+    color: #1a73e8;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.generate-btn:hover {
+    background: #0c5adb;
+    color: white;
+}
